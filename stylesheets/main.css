@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #eef1f3;
+}
+
+#outerwrap {
+    width: 973px;
+    margin: 0px auto;
+}
+
+#relativewrap {
+    position: relative;
+}
+
+#centerstage {
+    position: relative;
+    width: 914px;
+    background: white;
+    margin: 0 auto 50px;
+}
+
+.formcontent {
+	left: 40px;
+ 	background: white;
+	height: 230px;
+}
+
+.left-formcontent {
+	padding: 0px 140px;
+	text-align: left;
+}
+
+.right-formcontent {
+	text-align: left;
+}
+
+.contentcenter {
+	width: 80%;
+	text-align: center;
+}
+
+.content {
+	height: 150px;
+	margin: auto 30px;
+	padding: auto 100px;
+	text-align: left;
+}
+
+.left-content {
+   position: absolute;
+   left: 50px;
+   width: 50%;
+}
+
+.right-content {
+   position: absolute;
+   right: 0;
+   width: 50%;
+}
+
+.headershadow {
+    z-index: 2;
+		background: #808080;
+    height: 30px;
+    position: relative;
+}
+
+.headershadow-left {
+    z-index: 2;
+	background: #808080;
+    height: 30px;
+    left: -30px;
+    margin: 0 auto;
+    position: relative;
+    width: 943px;
+}
+
+.headershadow-right {
+    z-index: 2;
+		background: #808080;
+    height: 30px;
+   	left: 0px;
+    margin: 0 auto;
+    position: relative;
+    width: 943px;
+}
+
+.headershadow p {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 584px;
+    left: 192px;
+		font-family:"Verdana", sans-serif;
+		font-variant: small-caps;
+		font-weight: bold;
+		font-size: xx-large;
+		color: #F0F0F0;
+/*		overflow: hidden;*/
+}
+
+.headershadowsub {
+    z-index: 2;
+    height: 29px;
+    width: 972px;
+    margin: 0 auto;
+    left: -30px;
+    position: relative;
+    background: url(/images/corners.png);
+}
+
+.headershadowsub-left {
+    z-index: 2;
+    height: 29px;
+    width: 972px;
+    margin: 0 auto;
+    left: -30px;
+    position: relative;
+    background: url(/images/corners_left.png);
+}
+
+.headershadowsub-right {
+    z-index: 2;
+    height: 29px;
+    width: 972px;
+    margin: 0 auto;
+    left: -30px;
+    position: relative;
+    background: url(/images/corners_right.png);
+}
+
+#gaelink {	
+	padding: 30px;
+	text-align: right;
+}
+
+#gaelink a { color: #FFF; }
+#gaelink a:visited { color: #FFF; }
+#gaelink a:hover { color: #FFF; background-color:#FFF; }
