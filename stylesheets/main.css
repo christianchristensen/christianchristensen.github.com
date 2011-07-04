@@ -130,6 +130,10 @@ body {
     background: url(/images/corners_right.png);
 }
 
+.contactme {
+	height: 470px;
+}
+
 #gaelink {	
 	padding: 30px;
 	text-align: right;
