@@ -43,7 +43,7 @@ body {
 .content {
 	height: 150px;
 	margin: auto 30px;
-	padding: auto 100px;
+/*  padding: auto 100px;*/
 	text-align: left;
 }
 
@@ -132,6 +132,10 @@ body {
 
 .contactme {
 	height: 470px;
+}
+
+.contentposts {
+  height: 100%;
 }
 
 #gaelink {	

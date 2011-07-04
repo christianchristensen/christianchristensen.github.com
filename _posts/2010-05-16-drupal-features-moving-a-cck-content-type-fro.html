@@ -1,0 +1,21 @@
+--- 
+permalink: /drupal-features-moving-a-cck-content-type-fro/index.html
+layout: post
+title: Drupal - Features module - Moving a CCK (content type) from one feature to another
+published: true
+categories: 
+- drupal
+---
+<p><img title="3086495495_ab338eecc4.jpg" src="http://farm4.static.flickr.com/3066/3086495495_ab338eecc4.jpg" height="130" alt="3086495495_ab338eecc4.jpg" width="200" />&nbsp;Recently ran into an interesting problem - I wanted to move a <a href="http://drupal.org/project/cck">content type (cck)</a> that I had created from one <a href="http://drupal.org/project/features">feature</a> to another (specifically to move it into a <a href="http://drupal.org/project/spaces">spaces</a> enabled&nbsp;feature to gain some of those benefits - thanks <a href="http://code.developmentseed.org/">devseed</a>!); however, as you might be aware (if you are stumbling across this) features is pretty smart - often *too* smart.&nbsp;When removing the content type from one feature it will effectively remove the content type from your drupal install; whilst if you add the content type to another feature in parallel features will ingeniously mark the other feature you have as a dependency. What we are going to exploit: drupal features caches with a version control system (VCS - I prefer <a href="http://git-scm.com/">git</a>) and <a href="http://drupal.org/project/drush">drush</a>:</p>
+<p />
+<div>vernacular:</div>
+<div>* laterBranchOrTag - the later time we are trying to get to in our source</div>
+<div>* earlierBranchOrTag - the time when our feature we are coming *from* was correct</div>
+<div>* featureNameOld = old feature (to delete from)</div>
+<div>* featureNameNew = new feature (to be added to)</div>
+<p><script src="https://gist.github.com/403176.js"></script></p>
+<div>What we have done - we have basically loaded many of drupal's caches (note: some items like variables, with strongarm, do not use the db for cacheing - this is a different animal)&nbsp;with the feature and CCK defs and then switched the code base beneath it. When the features-update occurs the items that are cached are written out into features code, but in the featureNameNew namespace.</div>
+<p />
+<div>simple enough?</div>
+<p />
+<div>( photo attr: Alex Barth - <a href="http://www.flickr.com/photos/28242329@N00/3086495495">http://www.flickr.com/photos/28242329@N00/3086495495</a> )</div>
