@@ -172,6 +172,7 @@ task :push do
   puts "## Deploying branch to Github Pages "
   (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
   system "cp -R #{public_dir}/* #{deploy_dir}"
+  system "cp source/CNAME #{deploy_dir}/."
   puts "\n## copying #{public_dir} to #{deploy_dir}"
   cd "#{deploy_dir}" do
     system "git add ."
