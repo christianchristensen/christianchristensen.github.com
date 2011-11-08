@@ -30,7 +30,7 @@ category_dir: blog/categories
 markdown: rdiscount
 pygments: false # default python pygments have been replaced by pygments.rb
 
-paginate: 10 # Posts per page on the blog index
+paginate: 7 # Posts per page on the blog index
 recent_posts: 5 # Posts in the sidebar Recent Posts section
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.

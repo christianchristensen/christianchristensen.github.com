@@ -1,5 +1,5 @@
 body > header {
-  background: $header-bg;
+  background: url("/images/background-v2b.png") repeat-x scroll left top $header-bg;
   h1 {
     display: inline-block;
     margin: 0;

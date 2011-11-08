@@ -2,7 +2,11 @@
 // To give it a try, uncomment some of the lines below, make changes, rebuild your blog, and see how it works.
 
 //$max-width: 1350px;
-//$indented-lists: true;
+$indented-lists: true;
+
+// Header padding
+$header-pad-top: 2px;
+$header-pad-bottom: 2px;
 
 // Padding used for layout margins
 //$pad-min: 18px;
