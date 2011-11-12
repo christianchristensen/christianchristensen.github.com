@@ -227,6 +227,7 @@ categories: ruby
 <li> <a href="http://matthewkirk.com">http://matthewkirk.com</a>
 </li>
 <li> Array object in ruby, to java (symbol int (or type you want))...</li>
+<li> http://matthewkirk.com/presentations/Support-Vector-Machines-with-Jruby.pdf</li>
 </ul><h3>People Patterns</h3>
 
 <ul>
@@ -301,7 +302,8 @@ categories: ruby
 <li> Stack smashing - rackspace VMs --&gt; down to 2 (24 core) physical boxes</li>
 <li> <a href="http://speakerdeck.com/u/czarneckid/p/rails-in-the-video-game-industry">http://speakerdeck.com/u/czarneckid/p/rails-in-the-video-game-industry</a>
 </li>
-</ul>Andy Hunt
+</ul>
+<h3>Andy Hunt</h3>
 
 <ul>
 <li> Pragmattic Programmer</li>
