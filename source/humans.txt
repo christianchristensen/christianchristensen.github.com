@@ -1,18 +1,10 @@
- . 
+## Chris Christensen
+
+*  @imetchrischris
+*  https://github.com/christianchristensen
+*  http://drupal.org/user/595250
+
+. 
   .
 ...
-
-                       ________________ 
-                      (-_______________\
-              _-_         ,-' /          
-     ____.---'___`---._,-'___/           
-     \___________________](@)_>         
-        `'`--.____.-' -==`.  \          
-               `-'     ____`._\_________
-                      (-_______________/
-
-
-http://imetchrischris.com
-
-Hello, World!!
 
