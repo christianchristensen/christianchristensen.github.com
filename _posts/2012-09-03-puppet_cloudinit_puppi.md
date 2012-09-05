@@ -31,8 +31,8 @@ I'm curious if this Puppet module should actually be called Puppet-Deploy, becau
 
     class myapp {
       puppi::project::git { "myapp":
-        source                   => "https://github.com/../myapp.git",
-        deploy_root              => "/srv/myapp",
+        source      => "https://github.com/../myapp.git",
+        deploy_root => "/srv/myapp",
       }
     }
 
