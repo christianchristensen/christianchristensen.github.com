@@ -36,14 +36,4 @@
       </p>
     </section>
   </div>
-  <div class="sidebar-module">
-    <h4>Recent Posts</h4>
-    <ul>
-      {% for post in site.posts limit:3 %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
 </div>
