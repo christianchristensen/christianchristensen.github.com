@@ -1,6 +1,11 @@
-## [Midwest.io (2014)](http://www.midwest.io)
+---
+layout: post
+title: Midwest.io 2014
+date: 2014-07-16 20:00
+comments: false
+---
 
-Here’s a recap of my experience at Midwest.io: an eclectic collection of talks covering the latest trends, best practices, and research in the field of computing.
+Here’s a recap of my experience at [Midwest.io](http://www.midwest.io): an eclectic collection of talks covering the latest trends, best practices, and research in the field of computing.
 
 Conversation archive / slide refs: [Twitter feed](https://twitter.com/search?f=realtime&q=midwestio) (videos will be posted later)
 
