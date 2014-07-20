@@ -7,7 +7,8 @@ comments: false
 
 Here’s a recap of my experience at [Midwest.io](http://www.midwest.io): an eclectic collection of talks covering the latest trends, best practices, and research in the field of computing.
 
-Conversation archive / slide refs: [Twitter feed](https://twitter.com/search?f=realtime&q=midwestio) (videos will be posted later)
+*  [Videos](https://www.youtube.com/user/midwestio)
+*  Conversation archive / slide refs: [Twitter feed](https://twitter.com/search?f=realtime&q=midwestio)
 
 There were many great talks, I highly recommend catching some (or all) of the videos!
 
